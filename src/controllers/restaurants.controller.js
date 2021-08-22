@@ -12,7 +12,7 @@ class RestaurantsController {
             const rappiDataSource = new RappiDataSource();
 
             let coordinates = []
-            for (let i = 0; i < 3; i++) {
+            for (let i = 0; i < 4; i++) {
 
                 coordinates.push(LocationUtil.pointInCircle({latitude:constants.DARK_KITCHEN_CALI.lat, longitude:constants.DARK_KITCHEN_CALI.lng}, 3000))
                 coordinates[i].restaurant=[]
