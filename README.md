@@ -11,3 +11,11 @@ npm install
 ```
 npm run start
 ```
+
+
+```
+
+GET localhost:8080/api/restaurants
+
+
+```
